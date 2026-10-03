@@ -49,7 +49,7 @@ nav a:hover{
     word-spacing: 4px;
     font-size: 20px;
     color: white;
-    background-image:linear-gradient(rgba(0,0,0,0.40),rgba(0,0,0,0.40)),url(c:/Users/hp/Downloads/download.jfif)
+    background-image:linear-gradient(rgba(0,0,0,0.40),rgba(0,0,0,0.40)),url("./download.jfif")
 }
 
 #home p{
