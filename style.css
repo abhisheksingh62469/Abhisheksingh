@@ -1,0 +1,280 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    position: fixed;
+    top: o;
+    left: 0;
+    width: 100%;
+
+}
+span{
+   
+    color: rgb(22, 22, 236);
+}
+h2{
+    padding-right: 350px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+nav{
+    color: white;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #080d1c;
+    
+    gap: 32px;
+} 
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav a:hover{
+    color:  rgb(22, 22, 236);
+    border-bottom: 1.5px solid white;
+}
+ 
+#home{
+    padding-left: 250px;
+    padding-top: 130px;
+    height: 96vh;
+    word-spacing: 4px;
+    font-size: 20px;
+    color: white;
+    background-image:linear-gradient(rgba(0,0,0,0.40),rgba(0,0,0,0.40)),url(c:/Users/hp/Downloads/download.jfif)
+}
+
+#home p{
+    padding-top: 14px;
+    padding-bottom: 20px;
+}
+
+#hellobtn{
+    color: black;
+    text-decoration: none;
+    margin-top: 20px;
+    padding: 8px 16px;
+    font-size: 15px;
+    font-weight: 600;
+    border: 2px solid rgb(255, 254, 254);
+    border-radius: 8px;
+    background-color:  rgb(22, 22, 236);;
+}
+
+#hellobtn:hover{
+    background-color: white;
+    border: 2px solid black;
+}
+
+#about{
+    padding-top: 28px;
+    padding-left: 500px;
+    color: white;
+    height: 30vh;
+    background-image:linear-gradient(rgba(0,0,0,0.35),rgba(0,0,0,0.35)), url(c:/Users/hp/Downloads/photo-1668394559082-ec8de901fe86.avif);
+}
+
+#about h2{
+    color: black;
+    font-size: 38px;
+    font-weight: 800;
+    border-bottom: 2px solid black;
+}
+
+#about p{
+    padding-top: 12px;
+    font-size: 20px;
+    font-weight: 500;
+    word-spacing: 4px;
+}
+
+#skills{
+    background-image: linear-gradient(rgba(0,0,0,0.35),rgba(0,0,0,0.35)), url(c:/Users/hp/Downloads/photo-1668394559082-ec8de901fe86.avif);;
+    height: 30vh;
+}
+
+#skills{
+    width: 250px;  
+    display: flex;
+    align-items: center;
+    text-align: center; 
+    
+}
+
+#skills h2{
+    color: black;
+    font-size:60 px;
+    font-weight: 900;
+    padding-left: 260px;
+}
+
+.shape1{
+    padding-right: 150;
+}
+
+.shape2{
+    padding-left: 110px;
+}
+
+.shape3{
+    padding-left: 110px;
+}
+.shape1 i{
+    font-size: 60px;
+    color: orangered;
+}
+
+.shape2 i{
+    font-size: 60px;
+    color: blue;
+}
+
+.shape3 i{
+    font-size: 60px;
+    color: yellow;
+}
+
+.shape1 h3{
+    
+    font-size: 30px;
+    color: black;
+}
+
+.shape2 h3{
+    
+    font-size: 30px;
+    color: black;
+}
+
+.shape3 h3{
+
+    font-size: 30px;
+    color: black;
+}
+
+.shape1 p{
+    font-size: 30px;
+    color: black;
+}
+
+.shape2 p{
+    font-size: 30px;
+    color: black;
+}
+
+.shape3 p{
+    font-size: 30px;
+    color: black;
+}
+
+#myproject{
+    height: 40vh;
+    background-color: rgb(255, 244, 230);
+}
+
+#my{
+    font-size: 30px;
+    font-weight: 900;
+    padding-left: 220px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.call{
+    top: 100px;
+}
+
+#king{
+    height: 240px;
+    text-align: center;
+    background-image: url(c:/Users/hp/Downloads/premium_photo-1671199850163-3558258bdb74.avif);
+}
+#king h2{
+    color: white;
+    padding-left: 320px;
+    padding-top: 44px;
+    padding-bottom: 50px;
+    font-size: 32px;
+    font-weight: 750;
+}
+
+#king input{
+    padding: 12px;
+    border: 2px solid white;
+    border-radius: 8px;
+
+    /* justify-content: space-between; */
+}
+
+#king button{
+    padding: 12px 80px;
+    /* border: 2px solid white; */
+    border-radius: 8px; 
+    font-size: 15px;
+    font-weight: 600;
+    background-color: rgb(22, 22, 236);
+    
+};
+
+#king btn9:hover{
+    background-color:white;
+    /* border: 2px solid black; */
+    border-radius: 8px;
+
+}
+
+#myproject{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#myproject i{
+    font-size: 36px;
+    padding-bottom: 12px;
+    color:blue;
+}
+
+#myproject h3{
+    padding-bottom: 10px;
+}
+
+#myproject p{
+    padding-bottom: 10px;
+}
+
+#myproject button{
+    padding: 8px 16px;
+    margin-top: 28px;
+    /* border: 2px solid black; */
+    background-color: blue;
+    border-radius: 8px; 
+    font-size: 15px;
+    font-weight: 600;
+    color: black
+
+}
+
+#myproject button:hover{
+    background-color: white;
+    border:2px solid black;
+    border-radius: 8px;
+}
+footer{
+    border-top: 1px solid white;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 24px;
+    text-align: center;
+    height: 80px;
+    background-color: #080d1c;;
+}
