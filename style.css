@@ -195,7 +195,8 @@ nav a:hover{
 #king{
     height: 240px;
     text-align: center;
-    background-image: url(c:/Users/hp/Downloads/premium_photo-1671199850163-3558258bdb74.avif);
+    background-image: url("./premium_photo-1671199850163-3558258bdb74.avif
+");
 }
 #king h2{
     color: white;
