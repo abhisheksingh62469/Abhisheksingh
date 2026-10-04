@@ -195,9 +195,9 @@ nav a:hover{
 #king{
     height: 240px;
     text-align: center;
-    background-image: url("./premium_photo-1671199850163-3558258bdb74.avif
-");
+    background-image: url("./premium_photo-1671199850163-3558258bdb74.avif");
 }
+
 #king h2{
     color: white;
     padding-left: 320px;
@@ -277,5 +277,5 @@ footer{
     padding-top: 24px;
     text-align: center;
     height: 80px;
-    background-color: #080d1c;;
+    background-color: #080d1c;
 }
