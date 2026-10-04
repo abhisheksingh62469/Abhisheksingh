@@ -3,12 +3,6 @@
     margin: 0;
     box-sizing: border-box;
 }
-html,body{
-    width: 100%;
-    marging: 0;
-    padding: 0;
-    overflow-x: hidden;
-}
 
 header{
     position: fixed;
@@ -285,15 +279,8 @@ footer{
     height: 80px;
     background-color: #080d1c;
 }
-
-@media (max-width: 768px){
-    .container{
-        width: 100%;
-        padding: 20px;
-    }
-}
         
-/* PHONE KE LIYE - YE SABSE IMPORTANT HAI 
+/* PHONE KE LIYE - YE SABSE IMPORTANT HAI*/ 
 @media screen and (max-width: 768px){
   header{
     padding: 15px 20px;
@@ -326,4 +313,4 @@ footer{
     width: 100% !important;
     margin: 5px 0 !important;
   }
-}*/
+}
