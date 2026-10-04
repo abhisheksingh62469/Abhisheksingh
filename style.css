@@ -97,7 +97,7 @@ nav a:hover{
 }
 
 #skills{
-    background-image: linear-gradient(rgba(0,0,0,0.35),rgba(0,0,0,0.35)), url(c:/Users/hp/Downloads/photo-1668394559082-ec8de901fe86.avif);;
+    background-image: linear-gradient(rgba(0,0,0,0.35),rgba(0,0,0,0.35)), url("./photo-1668394559082-ec8de901fe86.avif");;
     height: 30vh;
 }
 
